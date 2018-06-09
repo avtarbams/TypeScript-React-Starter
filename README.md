@@ -113,7 +113,7 @@ We'll write a `Hello.tsx`:
 
 import * as React from 'react';
 
-export interface IProps {
+export interface IProps {      //start interface name with I due to lint rule, can avoid with lint ignore
   name: string;
   enthusiasmLevel?: number;
 }
